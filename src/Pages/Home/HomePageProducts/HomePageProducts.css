@@ -1,0 +1,20 @@
+.services-heading{
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+
+@media only screen and (max-width:640px) {
+  
+  .services-heading {
+    font-size: 40px !important;
+  }
+
+}

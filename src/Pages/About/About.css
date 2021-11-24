@@ -1,0 +1,28 @@
+.about-banner {
+  background: url('https://raw.githubusercontent.com/AnirbanAnu2000/img-storage/main/ccp/about-banner.jpg') no-repeat center;
+  background-size: cover;
+  height: 450px;
+}
+
+h1.about-banner-heading {
+  font-size: 100px;
+  color: rgb(255, 255, 255, 0.5);
+}
+
+.about-page {
+  margin-top: 80px !important;
+  margin-bottom: 80px !important;
+  background-color: #1e062e;
+  padding-top: 90px;
+  padding-bottom: 80px; 
+}
+
+@media only screen and (max-width:640px) {
+  h1.about-banner-heading {
+    font-size: 45px;
+    font-weight: 900;
+  }
+  .about-text {
+    margin-bottom: 50px;
+  }
+}

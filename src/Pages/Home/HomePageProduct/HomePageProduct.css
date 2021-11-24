@@ -1,0 +1,11 @@
+.product-card {
+  transition: all ease 0.5s;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  transform: scaleX(1.05);
+  box-shadow: 0px 0px 5px 7px #999;
+  background-color: #000;
+  color: #fff;
+}

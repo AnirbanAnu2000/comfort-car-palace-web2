@@ -1,0 +1,17 @@
+.explore-banner {
+  background: url('https://raw.githubusercontent.com/AnirbanAnu2000/img-storage/main/ccp/explore-banner.jpg') no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+}
+
+h1.explore-banner-heading {
+  font-size: 100px;
+  color: rgb(255, 255, 255, 0.5);
+  text-align: center;
+  line-height: 450px;
+}
+
+.explore-heading {
+  font-size: 50px;
+}
