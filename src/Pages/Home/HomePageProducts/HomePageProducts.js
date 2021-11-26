@@ -17,7 +17,7 @@ const HomePageProducts = () => {
                 <h1 className="text-primary services-heading text-center mb-4 fw-bold">Products</h1>
                 <div className="row justify-content-center">
                     {
-                        products.slice(-4).map(product => <HomePageProduct
+                        products.map(product => <HomePageProduct
                             key={product.id}
                             product={product}
                         ></HomePageProduct>)

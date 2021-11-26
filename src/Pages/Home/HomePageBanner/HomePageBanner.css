@@ -1,9 +1,11 @@
 .home-page-banner {
   height: 600px;
+  border-radius: 10px;
 }
 
 .home-page-banner .slider-img{
   height: 580px;
+  border-radius: 10px;
 }  
 
 .carousel-control-next-icon {

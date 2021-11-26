@@ -11,8 +11,8 @@ const HomePageProduct = (props) => {
       <Card style={{borderRadius:"10px"}} className="product-card p-2">
         <Card.Img variant="top" src={img} style={{height:"300px",borderTopLeftRadius:"10px",borderTopRightRadius:"10px"}} />
         <Card.Body>
-          <Card.Title><h3 style={{fontSize:"36px"}} className="brand-color fw-bold">{name}</h3></Card.Title>
-          <Card.Title><h5 style={{fontSize:"36px"}} className="brand-color fw-bold">${price}</h5></Card.Title>
+          <Card.Title><h4 className="brand-color fw-bold">{name}</h4></Card.Title>
+          <Card.Title><h4 className="brand-color fw-bold">${price}</h4></Card.Title>
           <Card.Text>
             {description} 
           </Card.Text>

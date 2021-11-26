@@ -8,9 +8,9 @@ const HomePageProduct = (props) => {
   // const url = `/product/${id}`;
 
   return (
-    <Col lg={5} className="mb-4">
-      <Card style={{borderRadius:"10px"}} className="product-card p-3">
-        <Card.Img variant="top" src={img} style={{height:"330px",borderTopLeftRadius:"10px",borderTopRightRadius:"10px"}} />
+    <Col lg={4} className="mb-4"> 
+      <Card style={{borderRadius:"10px"}} className="product-card p-2">
+        <Card.Img variant="top" src={img} style={{height:"350px",borderTopLeftRadius:"10px",borderTopRightRadius:"10px"}} />
         <Card.Body>
           <Card.Title><h4 style={{fontSize:"24px"}} className="brand-color fw-bold">{name}</h4></Card.Title>
           <Card.Title><h5 style={{fontSize:"24px"}} className="brand-color fw-bold">${price}</h5></Card.Title>

@@ -25,7 +25,7 @@ const Explore = () => {
                 <h1 className="text-primary explore-heading text-center my-5">Explore All Products</h1>
                 <div className="row">
                     {
-                      explore.slice(-5).map(exploreItem => <ExploreItem
+                      explore.map(exploreItem => <ExploreItem
                         key={exploreItem.id}
                         product={exploreItem}
                         ></ExploreItem>)
